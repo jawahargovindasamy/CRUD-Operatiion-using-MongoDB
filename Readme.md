@@ -17,32 +17,22 @@ The API documentation can be found [here](https://documenter.getpostman.com/view
 
 ## Endpoints
 
-### GET /products
+### GET api/products/getdata
 
 Returns a list of all products in the database.
 
-### GET /products/:id
+### GET api/products/getdata/:id
 
 Returns a single product by ID.
 
-### POST /products
+### POST api/products/create
 
 Creates a new product.
 
-### PUT /products/:id
+### PUT api/products/update/:id
 
 Updates a single product by ID.
 
-### DELETE /products/:id
+### DELETE api/products/delete/:id
 
 Deletes a single product by ID.
-
-
-## Running the Application
-
-To run the application, execute the following command:
-
-```
-npm start
-
-
